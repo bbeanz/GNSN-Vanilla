@@ -311,6 +311,40 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Style__c</fullName>
+        <externalId>false</externalId>
+        <label>Style</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Plain</fullName>
+                    <default>false</default>
+                    <label>Plain</label>
+                </value>
+                <value>
+                    <fullName>Flavoured</fullName>
+                    <default>false</default>
+                    <label>Flavoured</label>
+                </value>
+                <value>
+                    <fullName>Coloured</fullName>
+                    <default>false</default>
+                    <label>Coloured</label>
+                </value>
+                <value>
+                    <fullName>Sprinkles</fullName>
+                    <default>false</default>
+                    <label>Sprinkles</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
